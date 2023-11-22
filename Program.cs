@@ -23,10 +23,10 @@ namespace TwoSumHashMetohdApp1
                 {
                     Console.WriteLine("Get Target two numbers: " + myarray[numIndexMap[complement]] + ", " + myarray[i]);
                     Console.ReadLine();
-                    return; // 找到目標就結束程式
+                    return;
                 }
 
-                // 將當前數字及其索引添加到Dictionary中
+                
                 if (!numIndexMap.ContainsKey(myarray[i]))
                 {
                     numIndexMap.Add(myarray[i], i);
